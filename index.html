@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <script type="text/javascript" src="js/web.js"></script>
+	  <!-- Basic Page Needs
+	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <meta charset="utf-8">
+	  <title>Meeting Tracker</title>
+	  <meta name="description" content="">
+	  <meta name="author" content="">
+
+	  <!-- Mobile Specific Metas
+	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <!-- FONT
+	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+	  <!-- CSS
+	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <link rel="stylesheet" href="css/normalize.css">
+	  <link rel="stylesheet" href="css/skeleton.css">
+
+	  <!-- Favicon
+	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <link rel="icon" type="image/png" href="images/favicon.png">
+
+	</head>
+	<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <div class="container">
+		<div class="row">
+		  <div class="twelve columns" style="margin-top: 10%">
+			<h1>Meeting Tracker</h1>
+			<h2><span id="counter">00"</span> <span id="status"></span></h2>
+			<div id="buttons">
+				<input id="start" type="button" value="Start" onclick="start()"></input>
+				<input id="stop" type="button" value="Stop" onclick="stop()"></input>
+			</div>		
+
+		  </div>
+		 </div>
+		  
+			 
+			  
+			  <div class="row">
+				  <div class="four columns">
+					<p>How many people are on this meeting?</p> 
+				  </div>
+				  
+				  <div class="four columns">
+					<p><input id="people" value="4"/></p>
+				  </div>
+			  </div>
+			  <div class="row">
+				  <div class="four columns">
+					<p>Cost per hour of the team?</p> 
+				  </div>
+				  
+				  <div class="four columns">
+					<p><input id="cost" value="25"/></p>
+				  </div>
+			  </div>
+			  <h1>Total cost: <span id="totalCost">0.00</span></h1>
+			
+		 
+	
+	  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	</body>
+</html>
